@@ -8,6 +8,6 @@ done
 }
 jindu &
 cp -a $1 $2
-killall $!
+kill -9 $!
 echo "复制完成"
 
